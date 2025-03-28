@@ -377,6 +377,10 @@
         padding: 1vw 0vw;
     }
 
+        .cepochka_img {
+        background-image: none;
+    }
+
     .cepochka {
         display: flex;
         flex-direction: column;
