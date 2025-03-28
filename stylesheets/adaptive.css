@@ -547,13 +547,20 @@
         font-size: 1vw;
         padding: 0.3vw 0vw;
     }
+.materiali {
+    width: 13vw;
+    height: 3vw;
+    margin: 3vw 82vw;
+    font-size: 1.1vw;
+    padding: 0.6vw 0vw;
+}
 
-    .materiali {
-        width: 10vw;
-        height: 2vw;
-        margin: 3vw 88vw;
-        font-size: 1vw;
-        padding: 0.35vw 0vw;
+    .chast1 {
+        width: 20vw;
+        height: 4.1vw;
+        font-size: 2vw;
+        padding: 0.6vw 2vw;
+        margin: -4vw 0;
     }
 }
 
