@@ -29,7 +29,7 @@ function initThree() {
   let houseModel = null
 
   loader.load(
-    './3d/house5/house5.gltf',
+    'marina/house5/house5.gltf',
     (gltf) => {
       houseModel = gltf.scene
       houseModel.scale.set(1, 1, 1) // Устанавливаем стандартный масштаб

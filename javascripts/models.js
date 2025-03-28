@@ -39,10 +39,10 @@ function initThree() {
   controls.maxPolarAngle = Math.PI / 2.2
 
   // Добавляем сцены с моделями
-  scenes.push(createScene('./3d/house1/house1.gltf', 0))
-  scenes.push(createScene('./3d/house2/house2.gltf', 1))
-  scenes.push(createScene('./3d/house3/house3.gltf', 2))
-  scenes.push(createScene('./3d/house4/house4.gltf', 3))
+  scenes.push(createScene('./house1/house1.gltf', 0))
+  scenes.push(createScene('./house2/house2.gltf', 1))
+  scenes.push(createScene('./house3/house3.gltf', 2))
+  scenes.push(createScene('./house4/house4.gltf', 3))
 
   renderer.domElement.addEventListener('dblclick', () => switchScene(1))
 
