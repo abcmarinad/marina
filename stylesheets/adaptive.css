@@ -584,6 +584,16 @@
         margin: 2vw 79vw;}
 }
 
+    .strelka {
+        margin-top: 70vw;
+    }
+
+    @keyframes up{
+  0% {top: 100vw;}
+  50% {top: 98vw;}
+  100% {top: 100vw;}
+}
+
 .stroicompany {
     height: 3vw;
     font-size: 1.2vw;
