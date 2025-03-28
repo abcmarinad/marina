@@ -58,6 +58,21 @@
     width: 21vw;
 }
 
+.strelka {
+    background-image: url(../images/strelka.svg);
+    width: 5vw;
+    height: 5.2vw;
+    top: 225vw;
+    left: 48vw;
+    animation: up 1s linear infinite; 
+}
+    
+    @keyframes up{
+  0% {top: 225vw;}
+  50% {top: 223vw;}
+  100% {top: 225vw;}
+}
+
     .krovatsprava,
     .stolkvadrat,
     .reshetka,
