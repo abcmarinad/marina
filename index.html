@@ -6,15 +6,21 @@
   <title>Интерактивный плакат</title>
   <link rel="icon" href="./images/favicon.svg">
   <link href="./stylesheets/style.css" rel="stylesheet" type="text/css" />
-  <script type="module">
-    import * as THREE from './libs/three.module.js';  
-    import { OrbitControls } from './libs/OrbitControls.js';  
-    import { GLTFLoader } from './libs/GLTFLoader.js';  
-    import { RectAreaLightUniformsLib } from './libs/RectAreaLightUniformsLib.js';  
-  </script>
-<script src="javascripts/models.js" type="module"></script>
-<script src="./javascripts/java-script.js" charset="UTF-8"> </script>
-<script src="javascripts/house5.js" type="module"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./libs/three.module.js",
+          "OrbitControls": "./libs/OrbitControls.js",
+          "GLTFLoader": "./libs/GLTFLoader.js",
+          "RectAreaLightUniformsLib": "./libs/RectAreaLightUniformsLib.js"
+        } 
+      }
+    </script>
+
+  <script src="./javascripts/house5.js" type="module"></script>
+  <script src="./javascripts/models.js" type="module"></script>
+  <script src="./javascripts/java-script.js" charset="UTF-8"></script>
+
 </head>
 
 <body>
