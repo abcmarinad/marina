@@ -581,12 +581,12 @@
         margin: 2vw 79vw;}
 }
 
-    .stroicompany {
-        height: 2vw;
-        font-size: 1vw;
-        padding: 0.3vw 0vw;
-    }
-
+.stroicompany {
+    height: 3vw;
+    font-size: 1.2vw;
+    padding: 0.6vw 0vw;
+    width: 21vw;
+}
     .materiali {
         width: 10vw;
         height: 2vw;
