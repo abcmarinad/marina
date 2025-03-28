@@ -228,6 +228,10 @@
         margin-top: 25vw;
     }
 
+    .rozovayapalka1 {
+        margin-top: 40vw;
+    }
+    
     .stroicompany {
         height: 2vw;
         font-size: 1vw;
@@ -235,13 +239,27 @@
     }
 
     .furniture {
-        top: 59vw;
+        top: 69vw;
     }
 
     .cepochka_img {
-        top: 57vw;
+        top: 73vw;
     }
 
+.strelka {
+    background-image: url(../images/strelka.svg);
+    width: 5vw;
+    height: 5.2vw;
+    top: 225vw;
+    left: 48vw;
+    animation: up 1s linear infinite; 
+}
+
+@keyframes up{
+  0% {top: 225vw;}
+  50% {top: 223vw;}
+  100% {top: 225vw;}
+}
     .materiali {
         width: 10vw;
         height: 2vw;
