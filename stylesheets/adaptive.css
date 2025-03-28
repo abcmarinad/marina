@@ -464,6 +464,18 @@
         left: 79vw;
     }
 
+.strelka {
+    top: 185vw;
+    left: 48vw;
+    animation: up 1s linear infinite; 
+}
+    
+    @keyframes up{
+  0% {top: 185vw;}
+  50% {top: 183vw;}
+  100% {top: 185vw;}
+}
+    
 .materiali {
     width: 13vw;
     height: 3vw;
